@@ -1,0 +1,336 @@
+/*reset*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, button {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+ul{
+  list-style: none;
+}
+body {
+  line-height: 1;
+}
+
+:focus {
+  outline: 1;
+}
+
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #32373C;
+  text-decoration: none;
+
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+.border_clear{
+  border: none !important;
+}
+del {
+  text-decoration: line-through;
+
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select ,textarea{
+  vertical-align: middle;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/*自定义设置*/
+/*body{*/
+/*background-color: #F2F4F5;*/
+/*}*/
+
+.cft:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+
+.cft {
+  zoom: 1
+}
+
+.ft-l {
+  float: left;
+}
+
+.ft-r {
+  float: right;
+}
+
+.tx-cn {
+  text-align: center;
+}
+
+.color-1 {
+  color: #fff;
+}
+
+.color-2 {
+  color: #000 !important;
+}
+
+.color-3 {
+  color: #00C1DE;
+}
+
+.color-4 {
+  color: #fc2424;
+}
+.col-FF2828{
+  color: #FF2828;
+}
+.col-00912D{
+  color: #00912D;
+}
+.color-5 {
+  color: #0ABFF1;
+}
+.col-64696E{
+  color: #64696E;
+}
+.col-3498E9{
+  color: #3498E9;
+}
+.col-32373C{
+  color: #32373C;
+}
+.col-32373C{
+  color: #32373C;
+}
+.col-0099FF{
+  color: #0099FF;
+}
+
+.color-6{
+  color:#999
+}
+
+.bgc-0 {
+  background-color: #fff;
+}
+
+.bgc-1 {
+  background-color: #4ECEC2;
+}
+
+.bgc-2 {
+  background-color: #D9D9D9;
+}
+
+.bgc-3 {
+  background-color: #f9f9f9;
+}
+
+.bgc-4{
+  background-color: #ECECEC;
+}
+
+.bgc-5 {
+  background-color: #49B27C;
+  color: #fff !important;
+}
+
+.bgc-6{
+  background-color: #35BBD9;
+}
+
+.bgc-7{
+  background-color: #EC5F63;
+}
+
+.ft-14 {
+  font-size: 14px;
+}
+
+.ft-18 {
+  font-size: 18px;
+}
+
+.ft-20 {
+  font-size: 20px;
+}
+.ft-24 {
+  font-size: 24px;
+}
+
+.ft-26 {
+  font-size: 26px;
+}
+
+.ft-30 {
+  font-size: 30px;
+}
+.ft-36{
+  font-size: 36px;
+}
+
+.ft-40 {
+  font-size: 40px;
+}
+.ft-weight6{
+  font-weight: 600;
+}
+/*公共导航栏样式*/
+
+nav {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #292F42;
+  box-sizing: border-box;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+nav a {
+  display: block;
+  height: 100%;
+  line-height: 70px;
+  cursor: pointer;
+}
+
+nav img {
+  width: 70px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+nav .ft-r {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  border-left: 1px solid #1D2022;
+}
+
+nav .ft-r:hover{
+  background-color: #35BBD9;
+}
+
+nav .message {
+  position: relative;
+}
+
+.message span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  animation: msg 1s infinite linear;
+}
+
+@keyframes msg {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+.border_bottom{
+  border-bottom: 1px solid #B9C3CD;
+}
+.margin-left30{
+  margin-left: 30px;
+}
+::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+
+
